@@ -2,7 +2,12 @@ html {
   width: 100%;
 }
 
-.hidden {height:100%; min-height:100%; overflow:hidden !important; touch-action:none;}
+.hidden {
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden !important;
+  touch-action: none;
+}
 
 ul {
   list-style: none;
@@ -13,8 +18,16 @@ li {
   list-style: none;
 }
 
-.noDrag {-ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;}
-.noDragImg {-webkit-user-drag: none;}
+.noDrag {
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+.noDragImg {
+  -webkit-user-drag: none;
+}
 
 .wrapper {
   position: absolute;
@@ -27,7 +40,7 @@ li {
   /* background-color: aqua; */
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .wrapper {
     position: absolute;
     left: 50%;
@@ -69,48 +82,48 @@ li {
 
 .topBarUl li span {
   cursor: pointer;
-  -webkit-tap-highlight-color : rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.topBarUl li:nth-child(1) { 
+.topBarUl li:nth-child(1) {
   width: 64%;
 }
 
-.topBarUl li:nth-child(2) { 
+.topBarUl li:nth-child(2) {
   width: 12%;
   text-align: right;
 }
 
-.topBarUl li:nth-child(3) { 
+.topBarUl li:nth-child(3) {
   width: 12%;
   text-align: right;
 }
 
-.topBarUl li:nth-child(4) { 
+.topBarUl li:nth-child(4) {
   width: 12%;
   text-align: right;
 }
 
-@media (min-width:1034px) {
-  .topBarUl li:nth-child(5) { 
+@media (min-width: 1034px) {
+  .topBarUl li:nth-child(5) {
     display: none;
   }
 }
 
-@media (min-width:1px) and (max-width:1034px) {
-  .topBarUl li:nth-child(2) { 
+@media (min-width: 1px) and (max-width: 1034px) {
+  .topBarUl li:nth-child(2) {
     display: none;
   }
-  
-  .topBarUl li:nth-child(3) { 
+
+  .topBarUl li:nth-child(3) {
     display: none;
   }
-  
-  .topBarUl li:nth-child(4) { 
+
+  .topBarUl li:nth-child(4) {
     display: none;
   }
-  
-  .topBarUl li:nth-child(5) { 
+
+  .topBarUl li:nth-child(5) {
     /* display: none; */
     width: 36%;
     text-align: right;
@@ -229,7 +242,7 @@ hr.sideMenuLine {
   width: 32px;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .navBox {
     display: none;
   }
@@ -237,7 +250,7 @@ hr.sideMenuLine {
   .tvlSubPageTitleIconLabel li {
     font-size: 16px;
   }
-  
+
   .tvlSubPageTitleIconLabel li img {
     width: 18px;
     margin-right: 5px;
@@ -256,12 +269,12 @@ hr.sideMenuLine {
   /* justify-content: space-around; */
 }
 
-.totalValueUl li:nth-child(1) { 
+.totalValueUl li:nth-child(1) {
   /* width: 75%; */
   width: 732px;
 }
 
-.totalValueUl li:nth-child(2) { 
+.totalValueUl li:nth-child(2) {
   /* width: 25%; */
   width: 250px;
 }
@@ -275,7 +288,7 @@ hr.sideMenuLine {
   padding: 20px;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   #tvlGoogleChart {
     /* display: none; */
   }
@@ -286,20 +299,20 @@ hr.sideMenuLine {
     margin-bottom: 10px;
     box-sizing: border-box;
   }
-  
+
   .totalValueUl {
     display: list-item;
     /* display: flex; */
     /* justify-content: space-between; */
     /* justify-content: space-around; */
   }
-  
-  .totalValueUl li:nth-child(1) { 
+
+  .totalValueUl li:nth-child(1) {
     /* width: 75%; */
     width: 280px;
   }
-  
-  .totalValueUl li:nth-child(2) { 
+
+  .totalValueUl li:nth-child(2) {
     /* width: 25%; */
     width: 280px;
   }
@@ -326,11 +339,11 @@ hr.sideMenuLine {
   box-sizing: border-box;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .tvlLink0 {
     display: none;
   }
-  
+
   .tvlLink {
     /* display: none; */
     height: 166px;
@@ -403,7 +416,7 @@ hr.sideMenuLine {
   color: #757f8e;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .tvlLink {
     width: 320px;
     box-sizing: border-box;
@@ -436,7 +449,7 @@ hr.sideMenuLine {
   cursor: pointer;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .defiDetailPageLink {
     display: grid;
     grid-template-columns: 150px 150px;
@@ -449,9 +462,10 @@ hr.sideMenuLine {
 
 /* 이미지 가운데 맞추기 */
 .subPageDefiLinkBox img {
-  max-width:100%; max-height:100%;
-  display:inline-block;
-  vertical-align:middle;
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  vertical-align: middle;
   margin-left: 5px;
 }
 
@@ -470,12 +484,12 @@ hr.sideMenuLine {
 }
 
 .disableBtn img {
-  filter:saturate(0%);
+  filter: saturate(0%);
   opacity: 0.5;
 }
 
 .disableBtn span {
-  color: #757F8E;
+  color: #757f8e;
 }
 
 .subPageDefiLinkBoxTitle {
@@ -491,7 +505,7 @@ hr.sideMenuLine {
   color: #fff;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .subPageDefiLinkBox {
     width: 140px;
     height: 40px;
@@ -527,7 +541,7 @@ hr.sideMenuLine {
   margin-top: 3px;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .tvlChartUnitY {
     /* display: none; */
   }
@@ -546,11 +560,11 @@ hr.sideMenuLine {
   text-align: right;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .tvlChartCardUl li:nth-child(1) {
     width: 100%;
   }
-  
+
   .tvlChartCardUl li:nth-child(2) {
     /* display: none; */
     position: absolute;
@@ -621,23 +635,25 @@ hr.sideMenuLine {
   margin-top: -3px;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .miniCards {
     margin-top: -6px;
   }
 }
 
 .miniCardUl {
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  justify-content: center;
 }
 
 .miniCardUl li {
   /* width: 24%; */
   width: 250px;
+  height: 75px;
 }
 
 .miniCardList {
+  margin: 3px;
   padding: 15px;
   /* width: 230px; */
   height: 80px;
@@ -672,11 +688,11 @@ hr.sideMenuLine {
   color: #ffffff;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .miniCardUl {
     display: list-item;
   }
-  
+
   .miniCardUl li {
     width: 155px;
     height: 70px;
@@ -685,7 +701,7 @@ hr.sideMenuLine {
   }
 
   .miniCardList {
-    float: left; 
+    float: left;
     display: inline-block;
     padding: 10px 15px 10px 15px;
   }
@@ -761,7 +777,7 @@ hr.sideMenuLine {
   color: #ffffff;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .banner {
     width: 320px;
     height: 90px;
@@ -771,7 +787,7 @@ hr.sideMenuLine {
   .bannerTitle {
     font-size: 14px;
   }
-  
+
   .bannerContent {
     font-size: 11px;
   }
@@ -796,7 +812,7 @@ hr.sideMenuLine {
   /* -ms-overflow-style: -ms-autohiding-scrollbar; */
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .defiList {
     /* height: 860px; */
     margin-top: 10px;
@@ -829,17 +845,19 @@ hr.sideMenuLine {
 }
 
 .comingSoon {
-  color: #757F8E;
+  color: #757f8e;
 }
 
-.defiListTable th, td {
+.defiListTable th,
+td {
   height: 38px;
   border-bottom: 1px solid #404752;
   padding: 10px;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
-  .defiListTable th, td {
+@media (min-width: 1px) and (max-width: 1034px) {
+  .defiListTable th,
+  td {
     padding: 0 10px 0 10px;
   }
 }
@@ -913,7 +931,7 @@ hr.sideMenuLine {
 }
 
 /* Mobile Locked */
-@media (min-width:1035px) {
+@media (min-width: 1035px) {
   .defiListTable th:nth-child(8) {
     display: none;
   }
@@ -922,14 +940,13 @@ hr.sideMenuLine {
   }
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .tokenImg {
     width: 15px;
   }
-  
+
   .defiListTable th:nth-child(2) {
     /* display: none; */
-
   }
   .defiListTable td:nth-child(2) {
     /* display: none; */
@@ -973,11 +990,11 @@ hr.sideMenuLine {
   }
 
   .defiListTable th:nth-child(9) {
-    white-space:nowrap;
+    white-space: nowrap;
     /* display: none; */
   }
   .defiListTable td:nth-child(9) {
-    white-space:nowrap;
+    white-space: nowrap;
     /* display: none; */
   }
 
@@ -1013,11 +1030,11 @@ hr.sideMenuLine {
   color: #ffffff;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .defiListTableHead {
     font-size: 11.5px;
   }
-  
+
   .defiListTableBody {
     font-size: 11.5px;
     letter-spacing: -0.3px;
@@ -1063,7 +1080,7 @@ hr.sideMenuLine {
   vertical-align: middle;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .defiListTableHeadCellRight li:nth-child(2) {
     display: none;
   }
@@ -1113,7 +1130,7 @@ hr.sideMenuLine {
   text-align: left;
   color: #757f8e;
   text-align: right;
-  padding-top: 40px;
+  padding-top: 0px;
 }
 
 /* -------------------------------- Detail Page -------------------------------- */
@@ -1155,11 +1172,11 @@ hr.sideMenuLine {
   color: #f0b923;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .navHome {
     font-size: 10px;
   }
-  
+
   .navDefiName {
     font-size: 10px;
   }
@@ -1243,15 +1260,15 @@ hr.sideMenuLine {
   cursor: pointer;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .defiOverview {
     margin-top: 0px;
   }
-  
+
   .defiOverviewTitle {
     font-size: 15px;
   }
-  
+
   .defiOverviewContent {
     font-size: 12px;
   }
@@ -1324,7 +1341,7 @@ hr.sideMenuLine {
   /* -ms-overflow-style: -ms-autohiding-scrollbar; */
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .defiDetailList {
     /* height: 860px; */
     margin-top: 10px;
@@ -1348,7 +1365,8 @@ hr.sideMenuLine {
   background-color: #1f232b;
 } */
 
-.defiDetailListTable th, td {
+.defiDetailListTable th,
+td {
   height: 38px;
   border-bottom: 1px solid #404752;
   padding: 10px;
@@ -1411,7 +1429,7 @@ hr.sideMenuLine {
 }
 
 /* Mobile Locked */
-@media (min-width:1035px) {
+@media (min-width: 1035px) {
   .defiDetailListTable th:nth-child(3) {
     display: none;
   }
@@ -1420,14 +1438,14 @@ hr.sideMenuLine {
   }
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   /* .defiDetailListTable th:nth-child(2) {
     display: none;
   }
   .defiDetailListTable td:nth-child(2) {
     display: none;
   } */
-  
+
   .defiDetailListTable th:nth-child(1) {
     width: 30%;
   }
@@ -1443,7 +1461,7 @@ hr.sideMenuLine {
     width: 35%;
     display: none;
   }
-  
+
   .defiDetailListTable th:nth-child(3) {
     /* display: none; */
   }
@@ -1497,11 +1515,11 @@ hr.sideMenuLine {
   color: #ffffff;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .defiDetailListTableHead {
     font-size: 12px;
   }
-  
+
   .defiDetailListTableBody {
     font-size: 12px;
   }
@@ -1520,7 +1538,7 @@ hr.sideMenuLine {
   box-sizing: border-box;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .aboutBox {
     width: 320px;
     padding: 30px;
@@ -1531,7 +1549,7 @@ hr.sideMenuLine {
   width: 20%;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .cosmostationLogoOnAbout {
     width: 180px;
   }
@@ -1589,7 +1607,7 @@ hr.sideMenuLine {
   cursor: pointer;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .applyBtn {
     height: 115px;
   }
@@ -1608,7 +1626,7 @@ hr.sideMenuLine {
   text-align: right;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .applyBtnUl li img {
     margin-bottom: 24px;
   }
@@ -1653,7 +1671,7 @@ hr.sideMenuLine {
 }
 
 .theDefiListUl li:hover {
-  background-color: #171A20;
+  background-color: #171a20;
 }
 
 /* 1,4,7,10 */
@@ -1693,11 +1711,11 @@ hr.sideMenuLine {
   margin-left: 0px;
 } */
 
-.theDefiListUl li:nth-child(3n+1) {
+.theDefiListUl li:nth-child(3n + 1) {
   margin-left: 0px;
 }
 
-@media (min-width:1px) and (max-width:1034px) {
+@media (min-width: 1px) and (max-width: 1034px) {
   .theDefiListUl li {
     display: inline-block;
     margin-left: 0px;
@@ -1734,4 +1752,3 @@ hr.sideMenuLine {
   text-align: left;
   color: #757f8e;
 }
-
