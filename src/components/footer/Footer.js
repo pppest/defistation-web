@@ -2,7 +2,6 @@ import React, { Fragment, Suspense, useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import { observer, inject } from "mobx-react";
 import { useHistory, useLocation } from "react-router-dom";
-import { SocialIcon } from "react-social-icons"; // https://github.com/jaketrent/react-social-icons
 
 import "../../App.css";
 

@@ -12,7 +12,6 @@ import {
 
 import MiniCards from "../miniCards/MiniCards";
 import Chart from "react-google-charts";
-import loading from "../../assets/images/loading.gif";
 
 const TotalValue = observer((props) => {
   const { global } = useStores();
@@ -365,9 +364,7 @@ const TotalValue = observer((props) => {
                           "text-align": "center",
                           "margin-top": "70px",
                         }}
-                      >
-                        <img src={loading} />
-                      </div>
+                      ></div>
                     }
                     data={chartData}
                     options={{
@@ -420,9 +417,7 @@ const TotalValue = observer((props) => {
                           "text-align": "center",
                           "margin-top": "70px",
                         }}
-                      >
-                        <img src={loading} />
-                      </div>
+                      ></div>
                     }
                     data={chartData}
                     // options={{
